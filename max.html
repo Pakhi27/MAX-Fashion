@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAX</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <style>
+        .nav-link.Disabled {
+            margin-left: auto;
+            /* This will push the element to the right */
+        }
+
+        .form-control me-2 {
+            width: 300px;
+            /* Adjust the width as needed */
+            height: 40px;
+            /* Adjust the height as needed */
+            padding: 5px;
+            /* Adjust the padding as needed */
+            font-size: 16px;
+            /* Adjust the font size as needed */
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <img src="images/MAX.png" style="width:60px">
+            <!-- <a class="navbar-brand" href="#">MAX</a> -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" style="margin-left:40px" href="https://www.maxfashion.in/in/en/department/maxwomen">Women</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"  style="margin-left:40px"
+                            href="https://www.maxfashion.in/in/en/department/maxmen">Men</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="margin-left:40px"
+                            href="https://www.maxfashion.in/in/en/department/maxgirls">
+                            Girls
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true" style="margin-left:40px"
+                            href="https://www.maxfashion.in/in/en/department/maxboys">Boys</a>
+                    </li>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"
+                            style="margin-left:40px;width:100px">
+                    </form>
+
+                    <div class="C1" style="margin-left:300px">
+                        <li class="nav-item dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                More|Sign up/Sign in
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="https://maxonline.woohoo.in/en-in/e-gift-card/loipl-max-online-e-gift-cards-5-off">Online Gift Card</a></li>
+                                <li><a class="dropdown-item" href="https://maxonline.woohoo.in/en-in/e-gift-card/loipl-max-online-e-gift-cards-5-off">Online Gift Card</a></li>
+                                <li><a class="dropdown-item" href="https://maxloves.maxfashion.in/">Blog</a></li>
+                                <li><a class="dropdown-item" href="https://www.maxfashion.in/in/en/city-buzz">City Buzz</a></li>
+                                <li><a class="dropdown-item" href="https://www.maxfashion.in/in/en/sbicreditcard">SBI offers</a></li>
+                                <li><a class="dropdown-item" href="https://www.maxfashion.in/in/en/partnerenquiry">Partner inquiry</a></li>
+                            </ul>
+                        </li>
+                    </div>
+            </div>
+        </div>
+    </nav>
+    <h1 style="margin-top:30px">You searched for " "</h1>
+    <div class="box" style="display:flex">
+        <h5 style="margin-top:30px">Shop For</h5>
+        <a
+            href="https://www.maxfashion.in/in/en/search?q=%3Aindex%3Aprice-revers%3AallCategories%3Amaxwomen&price=99,499&range=99,3999">
+            <h5 style="margin-left:40px;margin-top:30px;color:black">Women</h5>
+        </a>
+        <a
+            href="https://www.maxfashion.in/in/en/department/maxboys">
+            <h5 style="margin-left:40px;margin-top:30px;color:black">Boys</h5>
+        </a>
+        </a>
+        <a
+            href="https://www.maxfashion.in/in/en/search?q=%3Aindex%3Aprice-revers%3AallCategories%3Amaxgirls&price=99,499&range=99,3999">
+            <h5 style="margin-left:40px;margin-top:30px;color:black">Girls</h5>
+        </a>
+        <a
+            href="https://www.maxfashion.in/in/en/search?q=%3Aindex%3Aprice-revers%3AallCategories%3Amaxmen&price=99,499&range=99,3999">
+            <h5 style="margin-left:40px;margin-top:30px;color:black">Men</h5>
+        </a>
+    </div>
+
+    <div class="box" style="display: flex; justify-content: space-between;align-items: flex-start;margin-top:20px">
+
+        <!-- <div class="dropdown" style="display: flex;"> -->
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                aria-expanded="false" style="margin-left:10px;margin-top:20px">
+                Price
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">rs99-rs3999</a></li>
+            </ul>
+        </div>
+
+
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                aria-expanded="false" style="margin-top:20px;margin-left:10px">
+                Browse
+            </button>
+            <ul class="dropdown-menu">
+                <li>
+                    <label>
+                        <input type="checkbox" id="checkbox1" name="checkbox1">
+                        Buy 2 Get 1 (5910)
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" id="checkbox1" name="checkbox1" href="https://www.maxfashion.in/in/en/search?q=%3Aindex%3Aprice-revers&price=99,499&range=99,3999">
+                       <a href="https://www.maxfashion.in/in/en/search?q=%3Aindex%3Aprice-revers%3Abadge.title.en%3ANew&price=99,499&range=99,3999">New(2858)</a>
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" id="checkbox1" name="checkbox1" href="https://www.maxfashion.in/in/en/search?q=%3Aindex%3Aprice-revers%3Abadge.title.en%3ANEW%20LOW%20PRICE&price=99,499&range=99,3999">
+                        <a href="https://www.maxfashion.in/in/en/search?q=%3Aindex%3Aprice-revers%3Abadge.title.en%3APlus%20Available&price=99,499&range=99,3999">Plus Available(600)</a>
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" id="checkbox1" name="checkbox1" href="https://www.maxfashion.in/in/en/search?q=%3Aindex%3Aprice-revers%3Abadge.title.en%3ABEST%20PRICE&price=99,499&range=99,3999">
+                       <a href="https://www.maxfashion.in/in/en/search?q=%3Aindex%3Aprice-revers%3Abadge.title.en%3ANEW%20LOW%20PRICE&price=99,499&range=99,3999">New Low Price(425)</a>
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" id="checkbox1" name="checkbox1" href="https://www.maxfashion.in/in/en/search?q=%3Aindex%3Aprice-revers%3Abadge.title.en%3A20%25%20OFF&price=99,499&range=99,3999">
+                        <a href="https://www.maxfashion.in/in/en/search?q=%3Aindex%3Aprice-revers%3Abadge.title.en%3A20%25%20OFF&price=99,499&range=99,3999">20% OFF(367)</a>
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" id="checkbox1" name="checkbox1" href="https://www.maxfashion.in/in/en/search?q=%3Aindex%3Aprice-revers%3Abadge.title.en%3ABEST%20PRICE&price=99,499&range=99,3999">
+                        <a href="https://www.maxfashion.in/in/en/search?q=%3Aindex%3Aprice-revers%3Abadge.title.en%3ABEST%20PRICE&price=99,499&range=99,3999">BEST PRICE(188)</a>
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" id="checkbox1" name="checkbox1" href="https://www.maxfashion.in/in/en/search?q=%3Aindex%3Aprice-revers%3Abadge.title.en%3A40%25%20OFF&price=99,499&range=99,3999">
+                        <a href="https://www.maxfashion.in/in/en/search?q=%3Aindex%3Aprice-revers%3Abadge.title.en%3A40%25%20OFF&price=99,499&range=99,3999">40% OFF(136)</a>
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" id="checkbox1" name="checkbox1" href="https://www.maxfashion.in/in/en/search?q=%3Aindex%3Aprice-revers%3Abadge.title.en%3A30%25%20OFF&price=99,499&range=99,3999">
+                       <a href="https://www.maxfashion.in/in/en/search?q=%3Aindex%3Aprice-revers%3Abadge.title.en%3A30%25%20OFF&price=99,499&range=99,3999">30% OFF(69)</a>
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" id="checkbox1" name="checkbox1" href="https://www.maxfashion.in/in/en/search?q=%3Aindex%3Aprice-revers%3Abadge.title.en%3A50%25%20OFF&price=99,499&range=99,3999">
+                       <a href="https://www.maxfashion.in/in/en/search?q=%3Aindex%3Aprice-revers%3Abadge.title.en%3A50%25%20OFF&price=99,499&range=99,3999">50% OFF(39)</a>
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" id="checkbox1" name="checkbox1" href="https://www.maxfashion.in/in/en/search?q=%3Aindex%3Aprice-revers%3Abadge.title.en%3ATrending%20Now&price=99,499&range=99,3999">
+                        <a href="https://www.maxfashion.in/in/en/search?q=%3Aindex%3Aprice-revers%3Abadge.title.en%3ATrending%20Now&price=99,499&range=99,3999">Trending Now(26)</a>
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" id="checkbox1" name="checkbox1" href="https://www.maxfashion.in/in/en/search?q=%3Aindex%3Aprice-revers%3Abadge.title.en%3AONLINE%20ONLY&price=99,499&range=99,3999">
+                       <a href="https://www.maxfashion.in/in/en/search?q=%3Aindex%3Aprice-revers%3Abadge.title.en%3AONLINE%20ONLY&price=99,499&range=99,3999">ONLINE ONLY(18)</a> 
+                    </label>
+                </li>
+            </ul>
+        </div>
+
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                aria-expanded="false" style="margin-top:20px;margin-left:10px;">
+                Color Family
+            </button>
+            <ul class="dropdown-menu">
+                <li>
+                    <label>
+                        <input type="checkbox" id="checkbox1" name="checkbox1">
+                        <a href="https://www.maxfashion.in/in/en/search?q=%3Aindex%3Aprice-revers%3Acolor.en%3Ablue">Blue</a>
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" id="checkbox1" name="checkbox1">
+                        <a href="https://www.maxfashion.in/in/en/search?q=%3Aindex%3Aprice-revers%3Acolor.en%3Agreen">Green</a>
+                    </label>
+                </li>
+
+                <li>
+                    <label>
+                        <input type="checkbox" id="checkbox1" name="checkbox1">
+                        <a href="https://www.maxfashion.in/in/en/search?q=%3Aindex%3Aprice-revers%3Acolor.en%3Apink">Pink</a>
+                    </label>
+                </li>
+
+                <li>
+                    <label>
+                        <input type="checkbox" id="checkbox1" name="checkbox1">
+                        <a href="https://www.maxfashion.in/in/en/search?q=%3Aindex%3Aprice-revers%3Acolor.en%3Ablack">Black</a>
+                    </label>
+                </li>
+
+                <li>
+                    <label>
+                        <input type="checkbox" id="checkbox1" name="checkbox1">
+                        <a href="https://www.maxfashion.in/in/en/search?q=%3Aindex%3Aprice-revers%3Acolor.en%3Ablack%3Acolor.en%3Agrey">Grey</a>
+                    </label>
+                </li>
+
+                <li>
+                    <label>
+                        <input type="checkbox" id="checkbox1" name="checkbox1">
+                       <a href="https://www.maxfashion.in/in/en/search?q=%3Aindex%3Aprice-revers%3Acolor.en%3Amulticolour">multicolor</a> 
+                    </label>
+                </li>
+
+                <li>
+                    <label>
+                        <input type="checkbox" id="checkbox1" name="checkbox1">
+                        <a href="https://www.maxfashion.in/in/en/search?q=%3Aindex%3Aprice-revers%3Acolor.en%3Awhite">white</a>
+                    </label>
+                </li>
+
+                <li>
+                    <label>
+                        <input type="checkbox" id="checkbox1" name="checkbox1">
+                        <a href="https://www.maxfashion.in/in/en/search?q=%3Aindex%3Aprice-revers%3Acolor.en%3Amulticolour%3Acolor.en%3Ayellow">Yellow</a>
+                    </label>
+                </li>
+
+                <li>
+                    <label>
+                        <input type="checkbox" id="checkbox1" name="checkbox1">
+                        <a href="https://www.maxfashion.in/in/en/search?q=%3Aindex%3Aprice-revers%3Acolor.en%3Amulticolour%3Acolor.en%3Ayellow%3Acolor.en%3Apurple">Purple</a>
+                    </label>
+                </li>
+
+                <li>
+                    <label>
+                        <input type="checkbox" id="checkbox1" name="checkbox1">
+                        <a href="https://www.maxfashion.in/in/en/search?q=%3Aindex%3Aprice-revers%3Acolor.en%3Amulticolour%3Acolor.en%3Ayellow%3Acolor.en%3Aorange">Orange
+                    </label>
+                </li>
+            </ul>
+        </div>
+
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                aria-expanded="false" style="margin-top:20px;margin-right:40px">
+                Type
+            </button>
+
+            <ul class="dropdown-menu">
+                <li>
+                    <label>
+                        <input type="checkbox" id="checkbox1" name="checkbox1">
+                        <a href="https://www.maxfashion.in/in/en/search?q=%3Aindex%3Aprice-revers%3Atype.en%3ACrew%20Neck&price=99,499&range=99,3999">Crew Neck(449)</a>
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" id="checkbox1" name="checkbox1">
+                        <a href="https://www.maxfashion.in/in/en/search?q=%3Aindex%3Aprice-revers%3Atype.en%3ATees&price=99,499&range=99,3999">Tees(259)</a>
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" id="checkbox1" name="checkbox1">
+                        <a href="https://www.maxfashion.in/in/en/search?q=%3Aindex%3Aprice-revers%3Atype.en%3ATops&price=99,499&range=99,3999">Tops(136)</a>
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" id="checkbox1" name="checkbox1">
+                        <a href="https://www.maxfashion.in/in/en/search?q=%3Aindex%3Aprice-revers%3Atype.en%3ARegular&price=99,499&range=99,3999">Regular(119)</a>
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" id="checkbox1" name="checkbox1">
+                        <a href="https://www.maxfashion.in/in/en/search?q=%3Aindex%3Aprice-revers%3Atype.en%3APolo&price=99,499&range=99,3999">Polo(50)</a>
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" id="checkbox1" name="checkbox1">
+                        <a href="https://www.maxfashion.in/in/en/search?q=%3Aindex%3Aprice-revers%3Atype.en%3AJoggers&price=99,499&range=99,3999">Joggers(43)</a>
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" id="checkbox1" name="checkbox1">
+                        <a href="https://www.maxfashion.in/in/en/search?q=%3Aindex%3Aprice-revers%3Atype.en%3AJoggers%3Atype.en%3AFull%20Length%20Sets&price=99,499&range=99,3999">Full Length Sets(41)</a>
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" id="checkbox1" name="checkbox1">
+                        <a href="https://www.maxfashion.in/in/en/search?q=%3Aindex%3Aprice-revers%3Atype.en%3AJoggers%3Atype.en%3AShorts&price=99,499&range=99,3999">Regular Shorts(37)</a>
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" id="checkbox1" name="checkbox1">
+                       <a href="https://www.maxfashion.in/in/en/search?q=%3Aindex%3Aprice-revers%3Atype.en%3AShorts%3Atype.en%3AStraight&price=99,499&range=99,3999">Straight(31)</a> 
+                    </label>
+                </li>
+            </ul>
+            </li>
+        </div>
+
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                aria-expanded="false" style="margin-top:20px;margin-right:150px">
+                Size
+            </button>
+            <ul class="dropdown-menu">
+                <li>
+                    <label>
+                        <input type="checkbox" id="checkbox1" name="checkbox1">
+                        <a href="https://www.maxfashion.in/in/en/search?q=%3Aindex%3Aprice-revers%3Atype.en%3AShorts%3Atype.en%3AStraight%3AsizeAll%3AS&price=99,499&range=99,3999">S</a>
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" id="checkbox1" name="checkbox1">
+                       <a href="https://www.maxfashion.in/in/en/search?q=%3Aindex%3Aprice-revers%3Atype.en%3AShorts%3Atype.en%3AStraight%3AsizeAll%3AM&price=99,499&range=99,3999">M</a>
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" id="checkbox1" name="checkbox1">
+                       <a href="https://www.maxfashion.in/in/en/search?q=%3Aindex%3Aprice-revers%3Atype.en%3AShorts%3Atype.en%3AStraight%3AsizeAll%3AL&price=99,499&range=99,3999">L</a> 
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" id="checkbox1" name="checkbox1">
+                       <a href="https://www.maxfashion.in/in/en/search?q=%3Aindex%3Aprice-revers%3Atype.en%3AShorts%3Atype.en%3AStraight%3AsizeAll%3AXL&price=99,499&range=99,3999">XL</a> 
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" id="checkbox1" name="checkbox1">
+                       <a href="https://www.maxfashion.in/in/en/search?q=%3Aindex%3Aprice-revers%3Atype.en%3AShorts%3Atype.en%3AStraight%3AsizeAll%3AXXL&price=99,499&range=99,3999">XXL</a>
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" id="checkbox1" name="checkbox1">
+                        <a href="https://www.maxfashion.in/in/en/search?q=%3Aindex%3Aprice-revers%3Atype.en%3AShorts%3Atype.en%3AStraight%3AsizeAll%3AXS&price=99,499&range=99,3999">XS</a>
+                    </label>
+                </li>
+            </ul>
+            </li>
+        </div>
+
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                aria-expanded="false" style="margin-right:10px;margin-top:20px;">
+                Discount Range
+            </button>
+            <ul class="dropdown-menu">
+                <li>
+                    <label>
+                        <input type="checkbox" id="checkbox1" name="checkbox1">
+                        <a href="https://www.maxfashion.in/in/en/search?q=%3Aindex%3Aprice-revers%3Atype.en%3AShorts%3Atype.en%3AStraight%3AsizeAll%3AXS&price=99,499&range=99,3999&discount=40,100">40% and above</a>
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" id="checkbox1" name="checkbox1">
+                       <a href="https://www.maxfashion.in/in/en/search?q=%3Aindex%3Aprice-revers%3Atype.en%3AShorts%3Atype.en%3AStraight%3AsizeAll%3AXS&price=99,499&range=99,3999&discount=30,100">30% and above</a> 
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" id="checkbox1" name="checkbox1">
+                        <a href="https://www.maxfashion.in/in/en/search?q=%3Aindex%3Aprice-revers%3Atype.en%3AShorts%3Atype.en%3AStraight%3AsizeAll%3AXS&price=99,499&range=99,3999&discount=20,100">20% and above</a>
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" id="checkbox1" name="checkbox1">
+                       <a href="https://www.maxfashion.in/in/en/search?q=%3Aindex%3Aprice-revers%3Atype.en%3AShorts%3Atype.en%3AStraight%3AsizeAll%3AXS&price=99,499&range=99,3999&discount=0,10">less than 10%</a>
+                    </label>
+                </li>
+        </div>
+    </div>
+    <!-- </div> -->
+
+    <div class="Box" style="display:flex;margin-top:30px">
+
+        <div class="card" style="width: 18rem;">
+            <a
+                href="https://www.maxfashion.in/in/en/SHOP-Max-White-Women-Round-Neck-Graphic-T-shirt/p/1000012799855-White-WHITE">
+                <img src="images/T-shirt.jpg" class="card-img-top" alt="...">
+            </a>
+            <div class="card-body">
+                <h5 class="card-title">Rs 299</h5>
+                <p class="card-text">Women Round Neck Graphic T-shirt</p>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <a
+                href="https://www.maxfashion.in/in/en/SHOP-Max-Black-Women-Solid-Crop-Denim-Jacket/p/1000012725373-Black-BLACK">
+                <img src="images/T-shirt-2.jpg" class="card-img-top" alt="...">
+            </a>
+            <div class="card-body">
+                <h5 class="card-title">Rs 1399 </h5>
+                <p class="card-text">Women Solid Crop Denim Jacket</p>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <a
+                href="https://www.maxfashion.in/in/en/SHOP-Max-Black-Women-Printed-Cotton-T-shirt/p/1000012725360-Black-BLACK">
+                <img src="images/T-shirt-3.jpg" class="card-img-top" alt="...">
+            </a>
+            <div class="card-body">
+                <h5 class="card-title">Rs 499</h5>
+                <p class="card-text">Men Printed Polo Sweatshirt</p>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <a
+                href="https://www.maxfashion.in/in/en/SHOP-Max-Green-Men-Oversized-Graphic-Sweatshirt/p/1000012625456-Green-GREEN">
+                <img src="images/T-shirt-4.jpg" class="card-img-top" alt="...">
+            </a>
+            <div class="card-body">
+                <h5 class="card-title">Rs 999</h5>
+                <p class="card-text">Men oversized graphic t-shirt</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="Box-2" style="display:flex">
+        <div class="card" style="width: 18rem;">
+            <a
+                href="https://www.maxfashion.in/in/en/SHOP-Max-Green-Men-Printed-Polo-Sweatshirt/p/1000012625469-Green-GREEN">
+                <img src="images/T-shirt-5.jpg" class="card-img-top" alt="...">
+            </a>
+            <div class="card-body">
+                <h5 class="card-title">Rs 999</h5>
+                <p class="card-text">Men Printed Polo Sweatshirt</p>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <a
+                href="https://www.maxfashion.in/in/en/SHOP-Max-Green-Men-Coloured-Baggy-Jeans/p/1000012615551-Green-GREEN">
+                <img src="images/T-shirt-6.jpg" class="card-img-top" alt="...">
+            </a>
+            <div class="card-body">
+                <h5 class="card-title">Rs 1499</h5>
+                <p class="card-text">Men Coloured </p>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <a
+                href="https://www.maxfashion.in/in/en/SHOP-Max-Multicolour-Women-Printed-Casual-Shirt/p/1000012744368-Multicolour-M">
+                <img src="images/T-shirt-8.jpg" class="card-img-top" alt="...">
+            </a>
+            <div class="card-body">
+                <h5 class="card-title">Rs 1499</h5>
+                <p class="card-text">Women printed coloured t-shirt</p>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <a
+                href="https://www.maxfashion.in/in/en/SHOP-Max-Black-Men-Relaxed-Fit-Checked-Over-Shirt/p/1000012632237-Black-BLACK">
+                <img src="images/T-shirt-9.jpg" class="card-img-top" alt="...">
+            </a>
+            <div class="card-body">
+                <h5 class="card-title">Rs 599</h5>
+                <p class="card-text">Men Relaxed Fit Checked Over Shirt</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="box" style="display:flex;justify-content:space-between;margin-top:40px">
+        <ul>
+            <div class="c1" style="margin-left:30px">
+                <h2>Women</h2>
+                <li><a href="https://www.maxfashion.in/in/en/c/maxwomen-tops" style="color:black">Tops</a></li>
+                </a>
+                <li><a href="https://www.maxfashion.in/in/en/c/maxwomen-dressesandjumpsuits" style="color:black">Dresses&Jumpsuits</a></li>
+                <li><a href="https://www.maxfashion.in/in/en/c/maxwomen-sportswear" style="color:black">Sportswear </a></li>
+                <li><a href="https://www.maxfashion.in/in/en/c/maxwomen-bottoms" style="color:black">Bottoms</a></li>
+                <li><a href="https://www.maxfashion.in/in/en/c/maxwomen-winterwear" style="color:black">Winterwear</a></li>
+                <li><a href="https://www.maxfashion.in/in/en/c/maxwomen-ethnicwear"style="color:black">Ethnicwear</a></li>
+                <li><a href="https://www.maxfashion.in/in/en/c/maxwomen-lingerie" style="color:black">Lingerie</a></li>
+                <li><a href="https://www.maxfashion.in/in/en/c/maxwomen-sleepwear" style="color:black">Sleepwear</a></li>
+                <li><a href="https://www.maxfashion.in/in/en/c/maxwomen-accessories" style="color:black">Accessories</a></li>
+                <li><a href="https://www.maxfashion.in/in/en/c/maxwomen-shoes" style="color:black">Shoes</a></li>
+            </div>
+        </ul>
+
+        <ul>
+            <div class="c2" style="margin-left:30px;margin-bottom:30px">
+                <h2>Men</h2>
+                <li><a href="https://www.maxfashion.in/in/en/c/maxmen-tops" style="color:black">Tops</a></li>
+                <li><a href="https://www.maxfashion.in/in/en/c/maxmen-bottoms" style="color:black">Bottoms</a></li>
+                <li><a href="https://www.maxfashion.in/in/en/c/maxmen-sportswear" style="color:black">Sportswear</a></li>
+                <li><a href="https://www.maxfashion.in/in/en/c/maxmen-winterwear" style="color:black">Winterwear</a></li>
+                <li><a href="https://www.maxfashion.in/in/en/c/maxmen-accessories" style="color:black">Accessories</a></li>
+                <li><a href="https://www.maxfashion.in/in/en/c/maxmen-shoes" style="color:black">Shoes</a></li>
+            </div>
+        </ul>
+
+        <ul>
+            <div class="c3" style="margin-left:30px">
+                <h2>Boys</h2>
+                <li><a href="https://www.maxfashion.in/in/en/c/maxboys-tops" style="color:black">Tops</li>
+                <li><a href="https://www.maxfashion.in/in/en/c/maxboys-bottoms" style="color:black">Bottoms</li>
+                <li><a href="https://www.maxfashion.in/in/en/c/maxboys-indianwear" style="color:black">Indian wear</li>
+                <li><a href="https://www.maxfashion.in/in/en/c/maxboys-winterwear" style="color:black">Winter wear</li>
+                <li><a href="https://www.maxfashion.in/in/en/c/maxboys-accessories" style="color:black">Accessories</li>
+                <li><a href="https://www.maxfashion.in/in/en/c/maxboys-shoes" style="color:black">Shoes</li>
+            </div>
+        </ul>
+
+        <ul>
+            <div class="c3" style="margin-left:30px;margin-bottom:30px">
+                <h2>Girls</h2>
+                <li><a href="https://www.maxfashion.in/in/en/c/maxgirls-tops" style="color:black">Tops</a></li>
+                <li><a href="https://www.maxfashion.in/in/en/c/maxgirls-bottoms" style="color:black">Bottoms</a></li>
+                <li><a href="https://www.maxfashion.in/in/en/c/maxgirls-indianwear" style="color:black">Indian wear</a></li>
+                <li><a href="https://www.maxfashion.in/in/en/c/maxgirls-winterwear" style="color:black">Winter wear</a></li>
+                <li><a href="https://www.maxfashion.in/in/en/c/maxgirls-essentials" style="color:black">Essentials</a></li>
+                <li><a href="https://www.maxfashion.in/in/en/c/maxgirls-accessories" style="color:black">Accessories</a></li>
+                <li><a href="https://www.maxfashion.in/in/en/c/maxgirls-shoes" style="color:black">Shoes</a></li>
+            </div>
+        </ul>
+
+        <ul>
+            <div class="c4" style="margin-left:30px;margin-bottom:30px">
+                <h2>Explore</h2>
+                <li><a href="https://www.maxfashion.in/in/en/offers" style="color:black">Offers</a></li>
+                <li><a href="https://www.maxfashion.in/in/en/magazine" style="color:black">Magazine</a></li>
+            </div>
+        </ul>
+
+        <ul>
+            <div class="c5" style="margin-left:30px;margin-bottom:30px">
+                <h2>About</h2>
+                <li><a href="https://www.maxfashion.in/in/en/about" style="color:black">About us</a></li>
+                <li><a href="https://www.maxfashion.in/in/en/write-to-us" style="color:black">Write to us</a></li>
+                <li><a href="https://in.linkedin.com/company/max-fashion-india" style="color:black">Carrers</a></li>
+                <li><a href="https://www.maxfashion.in/in/en/tour" style="color:black">Take a tour</a></li>
+                <li><a href="https://maxloves.maxfashion.in/" style="color:black">Blog</a></li>
+                <li><a href="https://www.maxfashion.in/in/en/storelocator" style="color:black">Store Locator</a></li>
+                <li><a href="http://landmarkcares.in/"style="color:black">Landmark</a></li>
+                <li><a href="http://landmarkcares.in/" style="color:black">Cares</a></li>
+            </div>
+        </ul>
+
+        <ul>
+            <div class="c6" style="margin-left:30px;margin-bottom:30px">
+                <h2>Help</h2>
+                <li><a href="https://www.maxfashion.in/in/en/contact" style="color:black">Contact us</a></li>
+                <li><a href="https://www.maxfashion.in/in/en/helpShipping" style="color:black">Shipping</a></li>
+                <li><a href="https://www.maxfashion.in/in/en/return" style="color:black">Returns</a></li>
+                <li><a href="https://www.maxfashion.in/in/en/return" style="color:black">Process</a></li>
+                <li><a href="https://helpin.maxfashion.com/support/solutions/folders/9000196215" style="color:black">Policy</a></li>
+                <li><a href="https://helpin.maxfashion.com/support/home" style="color:black">Help Centre</a></li>
+            </div>
+        </ul>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
